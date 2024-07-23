@@ -374,9 +374,21 @@
 
                     <div class="relative">
                         <div class="absolute inset-0 flex items-center justify-center">
-                            <div class="flex size-20 shrink-0 cursor-pointer">
+                            <button id="playButton" class="flex size-20 shrink-0 cursor-pointer">
                                 <img src="assets/icons/playBtn.svg" alt="icon" class="size-full" />
-                            </div>
+                            </button>
+                            <!-- <div class="youtube-embed absolute inset-0 z-40">
+                                <iframe
+                                    width="916"
+                                    height="516"
+                                    src="https://www.youtube.com/embed/smPos0mJvh8?si=7i7nVZbi5LQXKirn"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen
+                                ></iframe>
+                            </div> -->
                         </div>
 
                         <div class="flex h-[430px] w-[514px] shrink-0 rounded-[24px]">
@@ -734,6 +746,21 @@
                 </p>
             </div>
         </footer>
+
+        <div id="modal" class="fixed inset-0 z-50 hidden animate-[fadeIn_1s] items-center justify-center bg-black bg-opacity-50">
+            <div id="modalContent" class="relative h-[647px] w-[1147px] overflow-hidden rounded-3xl">
+                <iframe
+                    id="youtubeIframe"
+                    src="https://www.youtube.com/embed/smPos0mJvh8?si=7i7nVZbi5LQXKirn"
+                    title="YouTube video player"
+                    frameborder="0"
+                    class="size-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
 
         <script src="script.js"></script>
     </body>

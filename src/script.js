@@ -1,3 +1,23 @@
+const playButton = document.getElementById('playButton');
+const modal = document.getElementById('modal');
+const modalContent = document.getElementById('modalContent');
+const youtubeIframe = document.getElementById('youtubeIframe');
+const videoSrc = youtubeIframe.src;
+
+playButton.addEventListener('click', function () {
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    youtubeIframe.src = videoSrc; // Reset the src to start the video
+});
+
+window.addEventListener('click', function (event) {
+    if (event.target === modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        youtubeIframe.src = ''; // Clear the src to stop the video
+    }
+});
+
 document.querySelectorAll('.accordion-header').forEach(header => {
     header.addEventListener('click', () => {
         const accordionItem = header.parentElement;
