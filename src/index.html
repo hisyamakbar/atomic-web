@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,66 +13,65 @@
         <link href="./output.css" rel="stylesheet" />
     </head>
     <body class="bg-[#0D0D0D] font-inter text-[#7A7A7A]">
-        <header class="relative mx-auto mt-8 px-[60px] lg:mt-12">
-            <nav class="flex w-full justify-between px-5">
-                <a href="#">
-                    <div class="flex size-[50px] shrink-0">
-                        <img src="assets/logos/atomic.svg" alt="Atomic Logo" class="size-full" />
-                    </div>
-                </a>
+        <nav class="fixed top-[48px] z-50 mx-auto flex w-full justify-between px-[60px]">
+            <a href="#">
+                <div class="flex size-[50px] shrink-0">
+                    <img src="assets/logos/atomic.svg" alt="Atomic Logo" class="size-full" />
+                </div>
+            </a>
 
-                <ul class="hidden gap-8 rounded-[50px] border border-[#262626] bg-[hsla(0,0%,9%,0.6)] p-[16px_32px] lg:flex">
-                    <li>
-                        <a href="#features" class="transition-all duration-300 hover:text-[#b6b6b6]">Features</a>
-                    </li>
-                    <li>
-                        <a href="#how-it-works" class="transition-all duration-300 hover:text-[#b6b6b6]">How it works</a>
-                    </li>
-                    <li>
-                        <a href="#testimonials" class="transition-all duration-300 hover:text-[#b6b6b6]">Testimonials</a>
-                    </li>
-                    <li>
-                        <a href="#FAQs" class="transition-all duration-300 hover:text-[#b6b6b6]">FAQs</a>
-                    </li>
-                </ul>
+            <ul class="hidden gap-8 rounded-[50px] border border-[#262626] bg-[hsla(0,0%,9%,0.6)] p-[16px_32px] lg:flex">
+                <li>
+                    <a href="#features" class="transition-all duration-300 hover:text-[#b6b6b6]">Features</a>
+                </li>
+                <li>
+                    <a href="#how-it-works" class="transition-all duration-300 hover:text-[#b6b6b6]">How it works</a>
+                </li>
+                <li>
+                    <a href="#testimonials" class="transition-all duration-300 hover:text-[#b6b6b6]">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#FAQs" class="transition-all duration-300 hover:text-[#b6b6b6]">FAQs</a>
+                </li>
+            </ul>
 
-                <a
-                    href="#cta"
-                    class="blur-[10]transition-all hidden rounded-[50px] border border-[#262626] bg-[hsla(0,0%,9%,0.6)] p-[16px_28px] font-medium text-[#CCCCCC] duration-300 hover:border-[#b6b6b6] lg:flex"
-                >
-                    Notify me
-                </a>
+            <a
+                href="#cta"
+                class="blur-[10]transition-all hidden rounded-[50px] border border-[#262626] bg-[hsla(0,0%,9%,0.6)] p-[16px_28px] font-medium text-[#CCCCCC] duration-300 hover:border-[#b6b6b6] lg:flex"
+            >
+                Notify me
+            </a>
 
-                <button class="rounded-[50px] border border-[#262626] bg-[hsla(0,0%,9%,0.6)] p-[12px_16px] blur-[10] lg:hidden">
-                    <div class="flex size-[35px] shrink-0">
-                        <img src="assets/icons/hamburger.svg" alt="icon" class="size-full" />
-                    </div>
-                </button>
-            </nav>
-
-            <div class="absolute left-[60px] top-[385px] flex flex-col gap-[7px]">
+            <button class="rounded-[50px] border border-[#262626] bg-[hsla(0,0%,9%,0.6)] p-[12px_16px] blur-[10] lg:hidden">
+                <div class="flex size-[35px] shrink-0">
+                    <img src="assets/icons/hamburger.svg" alt="icon" class="size-full" />
+                </div>
+            </button>
+        </nav>
+        <header class="relative mx-auto mt-[111px] px-[60px] lg:pt-[120px]">
+            <div class="absolute left-[60px] top-[274px] flex flex-col gap-[7px]">
                 <div class="flex h-[212px] flex-shrink">
                     <img src="assets/images/Vlad Muslakov.png" alt="image" class="size-full object-contain" />
                 </div>
                 <p class="text-xs">Vlad Muslakov</p>
             </div>
 
-            <div class="absolute left-[347px] top-[479px] flex h-[50px] flex-shrink">
+            <div class="absolute left-[347px] top-[364px] flex h-[50px] flex-shrink">
                 <img src="assets/icons/Sarah.svg" alt="icon" />
             </div>
 
-            <div class="absolute right-[319px] top-[404px] flex h-[50px] flex-shrink">
+            <div class="absolute right-[319px] top-[293px] flex h-[50px] flex-shrink">
                 <img src="assets/icons/Elliah.svg" alt="icon" />
             </div>
 
-            <div class="absolute right-[60px] top-[395px] flex flex-col gap-[7px]">
+            <div class="absolute right-[60px] top-[284px] flex flex-col gap-[7px]">
                 <div class="flex h-[203px] flex-shrink">
                     <img src="assets/images/Aryan.png" alt="image" class="size-full object-contain" />
                 </div>
                 <p class="text-xs">Aryan Shah</p>
             </div>
 
-            <div class="mx-auto mt-[120px] font-medium">
+            <div class="mx-auto font-medium">
                 <div class="mx-auto max-w-[628px]">
                     <h1
                         class="bg-[linear-gradient(260deg,_#FFFFF7_25.75%,_#727267_76.53%)] bg-clip-text text-center font-poppins text-[80px] leading-[92px] tracking-[-2.4px] text-transparent"
@@ -187,7 +186,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="features">
             <div class="mx-auto max-w-7xl py-[96px]">
                 <div class="mx-auto flex max-w-[761px] flex-col gap-4">
                     <div class="flex items-center justify-center gap-2">
@@ -301,7 +300,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="how-it-works">
             <div class="mx-auto max-w-7xl py-[96px]">
                 <div class="mx-auto flex max-w-[761px] flex-col gap-4">
                     <div class="flex items-center justify-center gap-2">
@@ -345,5 +344,382 @@
                 </div>
             </div>
         </section>
+
+        <section id="testimonials">
+            <div class="mx-auto max-w-7xl py-[96px]">
+                <div class="flex gap-8 px-[110px]">
+                    <div class="flex flex-col gap-[60px]">
+                        <div class="flex items-center gap-2">
+                            <div class="flex size-[25px] shrink-0"><img src="assets/icons/atomic star.svg" alt="icon" class="size-full" /></div>
+                            <h2 class="text-lg leading-[25.2px] tracking-[-0.18px] text-[#DDFF00]">Customer story</h2>
+                        </div>
+                        <p class="text-[38px] leading-[42px] tracking-[-1.14px] text-[#CCC]">
+                            “Our growth no longer necessitates the recruitment and education of additional design professionals”
+                        </p>
+                        <a href="https://kelana-web.vercel.app/" target="_blank" class="group flex gap-[6px]">
+                            <p class="text-lg leading-[25.2px] tracking-[-0.18px] transition-all duration-300 group-hover:text-[#CCC]">Read the story</p>
+                            <div class="flex size-[30px] flex-shrink transition-all duration-300 group-hover:text-[#CCC]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M9.97681 15.0301H20.6435M20.6435 15.0301L15.9768 10.3634M20.6435 15.0301L15.9768 19.6968M15.3101 28.3634C22.6741 28.3634 28.6435 22.3941 28.6435 15.0301C28.6435 7.66611 22.6741 1.69678 15.3101 1.69678C7.94614 1.69678 1.97681 7.66611 1.97681 15.0301C1.97681 22.3941 7.94614 28.3634 15.3101 28.3634Z"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="relative">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="flex size-20 shrink-0 cursor-pointer">
+                                <img src="assets/icons/playBtn.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+
+                        <div class="flex h-[430px] w-[514px] shrink-0 rounded-[24px]">
+                            <img src="assets/images/Jhnny.png" alt="image" class="size-full object-contain" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mx-auto max-w-screen-2xl py-[7px]">
+            <div class="h-px w-full bg-[linear-gradient(90deg,_rgba(41,_41,_41,_0.00)_0%,_#545454_49.5%,_rgba(41,_41,_41,_0.00)100%);]"></div>
+        </div>
+
+        <section>
+            <div class="mx-auto max-w-7xl py-[96px]">
+                <!-- Cards -->
+                <div class="grid grid-cols-3 gap-x-8 gap-y-[60px]">
+                    <div class="relative flex flex-col items-center justify-center gap-[32px]">
+                        <div class="flex h-[32px] flex-shrink">
+                            <img src="assets/logos/loom.svg" alt="icon" class="size-full object-contain" />
+                        </div>
+                        <p class="text-center text-lg leading-[25px] tracking-[-0.18px]">
+                            "Creative, innovative and strategic. We have great achievements made together and looking to more"
+                        </p>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex items-center justify-center gap-1">
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <p class="text-center text-lg leading-[25px] tracking-[-0.18px]">Henry Arthur</p>
+                                <p class="text-center text-lg leading-[25px] tracking-[-0.18px] text-[#CCC]">Head of Engineering, Loom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col items-center justify-center gap-[32px]">
+                        <div class="flex h-[32px] flex-shrink">
+                            <img src="assets/logos/intercom.svg" alt="icon" class="size-full object-contain" />
+                        </div>
+                        <p class="text-center text-lg leading-[25px] tracking-[-0.18px]">
+                            "Incredible group of people and talented professionals. Focused on the development of flexible ideas"
+                        </p>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex items-center justify-center gap-1">
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <p class="text-center text-lg leading-[25px] tracking-[-0.18px]">Jerome Bell</p>
+                                <p class="text-center text-lg leading-[25px] tracking-[-0.18px] text-[#CCC]">Product Analyst, Intercom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col items-center justify-center gap-[32px]">
+                        <div class="flex h-[32px] flex-shrink">
+                            <img src="assets/logos/abstract.svg" alt="icon" class="size-full object-contain" />
+                        </div>
+                        <p class="text-center text-lg leading-[25px] tracking-[-0.18px]">
+                            "A truly innovative approach to gameplay that sets this agency apart from its peers within the broader industry"
+                        </p>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex items-center justify-center gap-1">
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                                <div class="flex size-[20px] flex-shrink">
+                                    <img src="assets/icons/star.svg" alt="icon" class="size-full object-contain" />
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <p class="text-center text-lg leading-[25px] tracking-[-0.18px]">Eleanor Pena</p>
+                                <p class="text-center text-lg leading-[25px] tracking-[-0.18px] text-[#CCC]">Head of Product Design, Abstract</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-[96px]">
+                    <div class="h-px w-full bg-[linear-gradient(90deg,_rgba(41,_41,_41,_0.00)_0%,_#545454_49.5%,_rgba(41,_41,_41,_0.00)100%);]"></div>
+                    <div class="mt-[53px] flex justify-center gap-8">
+                        <div class="flex flex-col items-center justify-center gap-3 px-[72px]">
+                            <p
+                                class="bg-[linear-gradient(39deg,_#FFFFF7_0%,_rgba(255,_255,_247,_0.34)_100%)] bg-clip-text text-[70px] leading-[73.5px] tracking-[-1.4px] text-transparent"
+                            >
+                                45+
+                            </p>
+                            <p class="text-xl leading-[26px] tracking-[-0.2px]">Happy customers</p>
+                        </div>
+                        <div class="w-px bg-[linear-gradient(180deg,_rgba(41,_41,_41,_0.00)_0%,_#545454_50%,_rgba(41,_41,_41,_0.00)_100%)]"></div>
+                        <div class="flex flex-col items-center justify-center gap-3 px-[72px]">
+                            <p
+                                class="bg-[linear-gradient(39deg,_#FFFFF7_0%,_rgba(255,_255,_247,_0.34)_100%)] bg-clip-text text-[70px] leading-[73.5px] tracking-[-1.4px] text-transparent"
+                            >
+                                5k+
+                            </p>
+                            <p class="text-xl leading-[26px] tracking-[-0.2px]">Hours spent on craft</p>
+                        </div>
+                        <div class="w-px bg-[linear-gradient(180deg,_rgba(41,_41,_41,_0.00)_0%,_#545454_50%,_rgba(41,_41,_41,_0.00)_100%)]"></div>
+
+                        <div class="flex flex-col items-center justify-center gap-3 px-[72px]">
+                            <p
+                                class="bg-[linear-gradient(39deg,_#FFFFF7_0%,_rgba(255,_255,_247,_0.34)_100%)] bg-clip-text text-[70px] leading-[73.5px] tracking-[-1.4px] text-transparent"
+                            >
+                                4.8
+                            </p>
+                            <p class="text-xl leading-[26px] tracking-[-0.2px]">Review rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="FAQs">
+            <div class="mx-auto max-w-7xl py-[80px]">
+                <div class="mx-auto flex max-w-[761px] flex-col gap-4">
+                    <div class="flex items-center justify-center gap-2">
+                        <div class="flex size-[25px] shrink-0"><img src="assets/icons/atomic star.svg" alt="icon" class="size-full" /></div>
+                        <h2 class="text-lg leading-[25.2px] tracking-[-0.18px] text-[#DDFF00]">FAQs</h2>
+                    </div>
+                    <p
+                        class="bg-[linear-gradient(66.85deg,_#FFFFF7_0%,_rgba(255,_255,_247,_0.34)_100%)] bg-clip-text text-center font-poppins text-[44px] leading-[53px] tracking-[-1.32px] text-transparent"
+                    >
+                        We’ve got the answers
+                    </p>
+                </div>
+
+                <!-- Accordion Container -->
+                <div class="mx-auto mt-[60px] flex max-w-[840px] flex-col gap-px">
+                    <!-- Active Accordion Item -->
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl bg-[#161616] p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">Can I use Atomic Template for commercial purposes?</p>
+                            <div class="icon-container flex size-4 shrink-0 rotate-45 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as
+                            published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See more at
+                            https://www.gnu.org/licenses/gpl-3.0.html
+                        </div>
+                    </div>
+                    <!-- Inactive Accordion Item -->
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">Can I use Atomic Template for commercial purposes?</p>
+                            <div class="icon-container flex size-4 shrink-0 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as
+                            published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See more at
+                            https://www.gnu.org/licenses/gpl-3.0.html
+                        </div>
+                    </div>
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">Read and understand Template restrictions</p>
+                            <div class="icon-container flex size-4 shrink-0 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            This template utilizes graphic resources that are the property of their respective owners. All graphic resources are used for
+                            presentation purposes. Please strictly follow these restrictions: - Users are allowed to use this template for personal and
+                            non-commercial purposes only. - Users are NOT permitted to extract or use the graphic resources for purposes other than presentation
+                            within this template. - Redistribution or resale of this template, in whole or in part, is strictly prohibited.
+                        </div>
+                    </div>
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">Accept the Template Usage Disclaimer</p>
+                            <div class="icon-container flex size-4 shrink-0 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            The graphic resources used in this template are owned by their respective creators, and their use is subject to the specified
+                            licensing terms. Users are responsible for adhering to these terms and should contact the original creators for any inquiries
+                            regarding the usage or licensing of the graphic resources.
+                        </div>
+                    </div>
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">Disclaimer of Responsibility for Usage</p>
+                            <div class="icon-container flex size-4 shrink-0 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            The authors disclaim any liability for damages or issues arising from the use of these graphic resources outside the context of this
+                            template. End users are solely responsible for ensuring compliance with the specified licensing terms, as well as any applicable
+                            laws or regulations.
+                        </div>
+                    </div>
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">Graphic Assets attribution Notice</p>
+                            <div class="icon-container flex size-4 shrink-0 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            We have made every effort to appropriately credit the authors and creators of the graphic resources used in this template. However,
+                            if you believe that we may have inadvertently missed or misrepresented your work, we sincerely apologize. We value and respect the
+                            creative contributions of all individuals, and we want to ensure that proper credit is given where it is due. If you are the owner
+                            of any graphic resource included in this template and your attribution is not accurately reflected, please do not hesitate to reach
+                            out to us. Contact us at hello@andreamontini.me and we will promptly address any oversight by adding the correct attribution or
+                            providing the necessary information.
+                        </div>
+                    </div>
+                    <div class="accordion-item flex flex-col gap-3 rounded-3xl p-[28px_24px]">
+                        <div class="accordion-header flex cursor-pointer items-center justify-between">
+                            <p class="text-xl leading-[26px] tracking-[-0.2px] text-[#CCC]">How to contact the author of this Template?</p>
+                            <div class="icon-container flex size-4 shrink-0 transform transition-transform duration-300">
+                                <img src="assets/icons/plus icon.svg" alt="icon" class="size-full" />
+                            </div>
+                        </div>
+                        <div
+                            class="accordion-content transition-max-height max-h-0 overflow-hidden pr-[30px] text-xl leading-[26px] tracking-[-0.2px] duration-500 ease-in-out"
+                        >
+                            For questions or clarifications, please contact hello@andreamontini.me
+                        </div>
+                    </div>
+                </div>
+
+                <p class="mt-[60px] text-center text-lg leading-[25.2px] tracking-[-0.18px]">
+                    Still have more questions? Contact our <a href="hisyamakbar.com" class="text-[#CCC] hover:text-[#7A7A7A] hover:underline">help center.</a>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="mx-auto max-w-7xl p-[80px]">
+                <div class="flex px-[110px]">
+                    <div
+                        class="flex w-full flex-col items-center justify-center gap-8 rounded-3xl bg-[linear-gradient(116deg,_#1A1A1A_0%,_#0D0D0D_100%);] py-[60px]"
+                    >
+                        <p class="text-center font-poppins text-[54px] font-medium leading-[64.8px] tracking-[-1.62px] text-[#CCCCCC]">
+                            Elevate the way you <br />
+                            source design
+                        </p>
+                        <p class="text-center text-xl leading-[26px] tracking-[-0.2px] text-[#7D7F78;]">
+                            Get ready to start producing stunning, efficient design <br />
+                            work without the hassles of hiring. Soon available.
+                        </p>
+                        <form
+                            action="#"
+                            class="mx-auto mt-8 flex max-w-[465px] justify-between rounded-[50px] border border-[#262626] bg-[#0D0D0D] p-[10px_10px_10px_32px]"
+                        >
+                            <input
+                                type="email"
+                                aria-label="email"
+                                class="w-full bg-transparent text-[18px] text-[#CCCCCC] focus-within:outline-none"
+                                placeholder="name@email.com"
+                            />
+                            <button
+                                type="submit"
+                                class="text-nowrap rounded-[40px] border border-[#262626] bg-[#DDFF00] p-[12px_26px] font-poppins text-[#0D0D0D] shadow-[0px_20px_35px_0px_#DDFF0033]"
+                            >
+                                Get notified
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="relative mx-auto flex w-full items-center justify-between px-[60px] py-[40px]">
+                <a href="#">
+                    <div class="flex size-[50px] shrink-0">
+                        <img src="assets/logos/atomic.svg" alt="Atomic Logo" class="size-full" />
+                    </div>
+                </a>
+
+                <ul class="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center gap-6">
+                    <li>
+                        <a href="#features" class="text-center text-sm leading-[18.2px] transition-all duration-300 hover:text-[#CCC]">Features</a>
+                    </li>
+                    <li>
+                        <a href="#how-it-works" class="text-center text-sm leading-[18.2px] transition-all duration-300 hover:text-[#CCC]">How it works</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials" class="text-center text-sm leading-[18.2px] transition-all duration-300 hover:text-[#CCC]">Testimonials</a>
+                    </li>
+                </ul>
+
+                <p class="text-center text-sm leading-[18.2px] text-[#CCC]">
+                    Made with love by <a href="https://x.com/AndreaMontini" target="_blank" class="text-[#7A7A7A] hover:text-[#CCC]">Andrea Montini</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
